@@ -14,7 +14,7 @@ struct BrowseProducts: View {
             
             HStack {
                 VStack {
-                    Image("pfp-twoinone")
+                    Image("pfp-cleanser")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                     Text("2-in-1 Foam Cleanser")

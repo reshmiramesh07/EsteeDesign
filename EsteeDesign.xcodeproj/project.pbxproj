@@ -12,6 +12,7 @@
 		8942366A2A47FDCB00DF6B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894236692A47FDCB00DF6B7E /* Assets.xcassets */; };
 		8942366D2A47FDCB00DF6B7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8942366C2A47FDCB00DF6B7E /* Preview Assets.xcassets */; };
 		894236742A49BF2200DF6B7E /* BrowseProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894236732A49BF2200DF6B7E /* BrowseProducts.swift */; };
+		894236762A4A7FEB00DF6B7E /* CleanserPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894236752A4A7FEB00DF6B7E /* CleanserPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		894236692A47FDCB00DF6B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8942366C2A47FDCB00DF6B7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		894236732A49BF2200DF6B7E /* BrowseProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseProducts.swift; sourceTree = "<group>"; };
+		894236752A4A7FEB00DF6B7E /* CleanserPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanserPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				894236652A47FDC900DF6B7E /* EsteeDesignApp.swift */,
 				894236672A47FDC900DF6B7E /* ContentView.swift */,
 				894236732A49BF2200DF6B7E /* BrowseProducts.swift */,
+				894236752A4A7FEB00DF6B7E /* CleanserPage.swift */,
 				894236692A47FDCB00DF6B7E /* Assets.xcassets */,
 				8942366B2A47FDCB00DF6B7E /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				894236742A49BF2200DF6B7E /* BrowseProducts.swift in Sources */,
 				894236682A47FDC900DF6B7E /* ContentView.swift in Sources */,
 				894236662A47FDC900DF6B7E /* EsteeDesignApp.swift in Sources */,
+				894236762A4A7FEB00DF6B7E /* CleanserPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
