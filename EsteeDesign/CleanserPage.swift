@@ -35,6 +35,8 @@ struct CleanserPage: View {
                 Spacer()
                 VStack {
                     Text("$27.00")
+                    
+                    // add the cart button
                 }
                 
             }
