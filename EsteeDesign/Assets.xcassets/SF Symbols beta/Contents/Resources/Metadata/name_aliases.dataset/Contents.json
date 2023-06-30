@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "name_aliases.strings",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

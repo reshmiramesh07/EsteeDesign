@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "AppIcon-Beta.icns",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

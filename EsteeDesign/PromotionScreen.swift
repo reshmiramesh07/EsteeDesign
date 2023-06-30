@@ -52,18 +52,21 @@ struct PromotionScreen: View {
                 
                 // nav bar
                 HStack {
-                    BottomNavBarPromotion(image: Image("icon-home"), destination: AnyView(BrowseProducts()))
+                    BottomNavBarPromotion(image: Image("icons8-home-100"), destination: AnyView(BrowseProducts()))
                     Spacer()
-                    BottomNavBarPromotion(image: Image("icon-promotion"), destination: AnyView(ContentView()))
+                    BottomNavBarPromotion(image: Image("icons8-commercial-100"), destination: AnyView(ContentView()))
                     Spacer()
-                    BottomNavBarPromotion(image: Image("icon-cart"), destination: AnyView(BrowseProducts()))
+                    BottomNavBarPromotion(image: Image("icons8-cart-100"), destination: AnyView(BrowseProducts()))
+                  Spacer()
+                    BottomNavBarPromotion(image: Image("icons8-person-100"), destination: AnyView(BrowseProducts()))
+                    
                 }
                 .padding()
-                .padding(.horizontal)
-                .background(Color.white)
-                .clipShape(Capsule())
-                .shadow(color: Color.black.opacity(0.15), radius: 10, x: 0, y: 0)
-                .frame(alignment: .bottom)
+             //   .padding(.horizontal)
+             //   .background(Color.white)
+             //   .clipShape(Capsule())
+             //   .shadow(color: Color.black.opacity(0.15), radius: 10, x: 0, y: 0)
+             //   .frame(alignment: .bottom)
                 
             }
         }

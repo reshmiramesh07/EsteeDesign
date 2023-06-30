@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "SFSymbolsFallback.otf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
