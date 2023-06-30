@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CleanserPage: View {
-    @State private var detailText = "- 2-in-1 Foam Cleanser works as a daily cleanser or weekly purifying mask. \n- Cleanses + Deeply Purifies. Kicks off regimen. \n- Healthier-looking. Blissful-feeling. Vitality-loving skin. \n- Proof positive. After just 1 application: \n   - Pores appear minimized: -17%* \n   - 96% said it removed excess oil** \n   - 97% naturally derived formula.*** \n- Infused with our Nutri-9 Complex, which includes: \n   - Sweet Kelp (responsibly sourced) \n   - Red Algae Ferment (responsibly sourced) \n   - Coconut Water Ferment (our proprietary ferment)"
+    @State private var detailText = "2-in-1 Foam Cleanser works as a daily cleanser or weekly purifying mask. \nCleanses + Deeply Purifies. Kicks off regimen. \nHealthier-looking. Blissful-feeling. Vitality-loving skin. \nProof positive. After just 1 application: \n   - Pores appear minimized: -17%* \n   - 96% said it removed excess oil** \n97% naturally derived formula.*** \nInfused with our Nutri-9 Complex, which includes: \n   - Sweet Kelp (responsibly sourced) \n   - Red Algae Ferment (responsibly sourced) \n   - Coconut Water Ferment (our proprietary ferment)"
     
     var body: some View {
         VStack (alignment: .leading) {
@@ -59,7 +59,7 @@ struct CleanserPage: View {
                 HStack {
                     Spacer()
                     Button(action: {
-                        detailText = ("- 2-in-1 Foam Cleanser works as a daily cleanser or weekly purifying mask. \n- Cleanses + Deeply Purifies. Kicks off regimen. \n- Healthier-looking. Blissful-feeling. Vitality-loving skin. \n- Proof positive. After just 1 application: \n   - Pores appear minimized: -17%* \n   - 96% said it removed excess oil** \n   - 97% naturally derived formula.*** \n- Infused with our Nutri-9 Complex, which includes: \n   - Sweet Kelp (responsibly sourced) \n   - Red Algae Ferment (responsibly sourced) \n   - Coconut Water Ferment (our proprietary ferment)")
+                        detailText = ("2-in-1 Foam Cleanser works as a daily cleanser or weekly purifying mask. \nCleanses + Deeply Purifies. Kicks off regimen. \nHealthier-looking. Blissful-feeling. Vitality-loving skin. \nProof positive. After just 1 application: \n   - Pores appear minimized: -17%* \n   - 96% said it removed excess oil** \n97% naturally derived formula.*** \nInfused with our Nutri-9 Complex, which includes: \n   - Sweet Kelp (responsibly sourced) \n   - Red Algae Ferment (responsibly sourced) \n   - Coconut Water Ferment (our proprietary ferment)")
                         
                     }) {
                         Text("Description")
@@ -96,6 +96,19 @@ struct CleanserPage: View {
                 
             }
             .padding()
+            
+            // nav bar
+            HStack {
+                BottomNavBarCleanser(image: Image("icons8-home-100"), destination: AnyView(BrowseProducts()))
+                Spacer()
+                BottomNavBarCleanser(image: Image("icons8-commercial-100"), destination: AnyView(ContentView()))
+                Spacer()
+                BottomNavBarCleanser(image: Image("icons8-cart-100"), destination: AnyView(BrowseProducts()))
+              Spacer()
+                BottomNavBarCleanser(image: Image("icons8-person-100"), destination: AnyView(BrowseProducts()))
+                
+            }
+            .padding()
         }
     }
 }
@@ -107,4 +120,19 @@ struct CleanserPage_Previews: PreviewProvider {
     }
 }
 
+struct BottomNavBarCleanser: View {
+    let image: Image
+    let destination: any View
+    var body: some View {
+        NavigationLink(destination: AnyView(destination), label: {
+            image
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 40.0, height: 40.0)
+                .foregroundColor(.black)
+                .navigationBarTitle("")
+                .navigationBarHidden(true)
+        })
+    }
+}
 

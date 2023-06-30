@@ -62,11 +62,6 @@ struct PromotionScreen: View {
                     
                 }
                 .padding()
-             //   .padding(.horizontal)
-             //   .background(Color.white)
-             //   .clipShape(Capsule())
-             //   .shadow(color: Color.black.opacity(0.15), radius: 10, x: 0, y: 0)
-             //   .frame(alignment: .bottom)
                 
             }
         }
