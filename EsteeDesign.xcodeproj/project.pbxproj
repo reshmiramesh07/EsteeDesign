@@ -17,6 +17,7 @@
 		89656F7B2A4DC228008228E2 /* FacebookGamingServices in Frameworks */ = {isa = PBXBuildFile; productRef = 89656F7A2A4DC228008228E2 /* FacebookGamingServices */; };
 		89656F7D2A4DC228008228E2 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 89656F7C2A4DC228008228E2 /* FacebookLogin */; };
 		89656F7F2A4DC228008228E2 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = 89656F7E2A4DC228008228E2 /* FacebookShare */; };
+		89B10A082A4E795400CD567B /* PromotionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B10A072A4E795300CD567B /* PromotionScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8942366C2A47FDCB00DF6B7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		894236732A49BF2200DF6B7E /* BrowseProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseProducts.swift; sourceTree = "<group>"; };
 		894236752A4A7FEB00DF6B7E /* CleanserPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanserPage.swift; sourceTree = "<group>"; };
+		89B10A072A4E795300CD567B /* PromotionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			children = (
 				894236652A47FDC900DF6B7E /* EsteeDesignApp.swift */,
 				894236672A47FDC900DF6B7E /* ContentView.swift */,
+				89B10A072A4E795300CD567B /* PromotionScreen.swift */,
 				894236732A49BF2200DF6B7E /* BrowseProducts.swift */,
 				894236752A4A7FEB00DF6B7E /* CleanserPage.swift */,
 				894236692A47FDCB00DF6B7E /* Assets.xcassets */,
@@ -162,6 +165,7 @@
 			files = (
 				894236742A49BF2200DF6B7E /* BrowseProducts.swift in Sources */,
 				894236682A47FDC900DF6B7E /* ContentView.swift in Sources */,
+				89B10A082A4E795400CD567B /* PromotionScreen.swift in Sources */,
 				894236662A47FDC900DF6B7E /* EsteeDesignApp.swift in Sources */,
 				894236762A4A7FEB00DF6B7E /* CleanserPage.swift in Sources */,
 			);
@@ -294,6 +298,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EsteeDesign/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -322,6 +327,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EsteeDesign/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
